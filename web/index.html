@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .movie-detail {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex; /* Sử dụng flexbox để sắp xếp ảnh và nội dung */
+            gap: 20px; /* Khoảng cách giữa ảnh và nội dung */
+        }
+
+        .movie-poster {
+            flex: 1; /* Chiếm 1 phần của container */
+        }
+
+        .movie-poster img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px; /* Bo góc ảnh */
+        }
+
+        .movie-content {
+            flex: 2; /* Chiếm 2 phần của container */
+        }
+
+        .movie-content h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .movie-info {
+            margin-bottom: 20px;
+        }
+
+        .movie-info p {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 5px 0;
+        }
+
+        .movie-info strong {
+            color: #333;
+        }
+
+        .movie-description {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .movie-description p {
+            margin: 0;
+        }
+    </style>
+
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="movie-detail">
+            <!-- Phần ảnh phim -->
+            <div class="movie-poster">
+                <img src="image/den-am-hon.jpg" alt="Đến Âm Hôn">
+            </div>
+
+            <!-- Phần thông tin phim -->
+            <div class="movie-content">
+                <h1>ĐẾN ÂM HÔN</h1>
+                <div class="movie-info">
+                    <p><strong>Thể loại:</strong> Bí ẩn, Hồi hộp</p>
+                    <p><strong>Khởi chiếu:</strong> 07/02/2025</p>
+                    <p><strong>Thời lượng:</strong> 101 phút</p>
+                    <p><strong>Ngôn ngữ:</strong> Tiếng Việt - Phụ đề Tiếng Anh</p>
+                    <p><strong>Rated:</strong> T18 – PHIM ĐƯỢC PHỔ BIẾN ĐẾN NGƯỜI XEM TỪ ĐỦ 18 TUỔI TRỞ LÊN (18+)</p>
+                </div>
+                <div class="movie-description">
+                    <p>Lấy cảm hứng từ Chuyện Người Con Gái Nam Xương, Đèn Âm Hôn xảy ra tại một ngôi làng miền Bắc vào thời phong kiến. Thương một mình nuôi con trai chờ chồng đi lính trở về. Linh (con Thương) vô tình nhặt được một cây đèn, từ đó cầu gọi chiếc bóng hiện trên tường là cha. Theo lời của cổ đông trong làng, đây là cây đèn âm hôn, có thể đã triệu hồn một ác linh quay lại báo thù. Từ đây, những sự kiện bất ngờ xảy ra...</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
